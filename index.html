@@ -456,14 +456,15 @@
           <label for="user-comment" class="modal-label">Comment</label>
           <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-text"></textarea>
         </div>
-        <div class="model-field">
-          <input type="checkbox" name="policy" id="policy" class="modal-check visually-hidden" value="true">
-          <label for="policy" class="check-text"><span>
+        <div class="model-field-checkbox">
+          <input type="checkbox" name="user-privacy" id="user-privacy" class="modal-check visually-hidden" value="true">
+          <label for="user-privacy" class="check-text"><span class="accent-modal">
               <svg class="check-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-vector"></use>
               </svg>
-            </span>I accept the terms and conditions of the Privacy
-            Policy</label>
+            </span>I accept the terms and conditions of the <a href="#" class="link-policy">Privacy
+              Policy</a>
+          </label>
         </div>
         <button type="submit" class="modal-end-btn">Send</button>
       </form>
