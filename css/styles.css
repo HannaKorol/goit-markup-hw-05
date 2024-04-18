@@ -632,7 +632,7 @@ border: 1px solid #fff;
 }
 
 .footer-icon {
-  position: absolute;
+  /* position: absolute; */
   top: 8px;
   fill: #fff;
   width: 24px;
