@@ -637,8 +637,9 @@ border: 1px solid #fff;
   fill: #fff;
   width: 24px;
   height: 24px;
-  left: 117px;
-  right: 24px;
+  /* left: 117px;
+  right: 24px; */
+  margin-left: 16px;
 }
 
 /* ---------------------END end--------------------------------- */
