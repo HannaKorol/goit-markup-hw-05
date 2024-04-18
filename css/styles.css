@@ -631,14 +631,11 @@ border: 1px solid #fff;
       cursor: pointer;
 }
 
-.footer-icon {
-  /* position: absolute; */
+.footer-btn .footer-icon {
   top: 8px;
   fill: #fff;
   width: 24px;
   height: 24px;
-  /* left: 117px;
-  right: 24px; */
   margin-left: 16px;
 }
 
