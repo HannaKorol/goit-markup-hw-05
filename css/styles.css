@@ -859,6 +859,7 @@ margin-bottom: 24px;
 } */
 
 .check-text span {
+    display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -870,7 +871,6 @@ margin-bottom: 24px;
   }
 
 .modal-check:checked +.check-text span {
-  display: inline-flex;
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
